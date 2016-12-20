@@ -1,4 +1,4 @@
-mimemessage = require 'mimemessage.js'
+mimemessage = require 'mimemessage'
 _  = require 'lodash'
 
 exports.multiRes = (req, res, next) ->
