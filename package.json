@@ -4,7 +4,7 @@
   "description": "An express middleware to respond to multipart requests",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run test && coffee -c lib",
+    "prepublish": "npm run lint && coffee -c lib",
     "lint": "resin-lint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
